@@ -7,5 +7,6 @@ signal = {
     "strategy": "EMA"
 }
 
-res = requests.post("https://forid0k.github.io/quotex-bot/", json=signal)
+res = requests.post("wss://ws2.market-qx.trade/socket.io/?EIO=3&transport=websocket
+", json=signal)
 print(res.json())
