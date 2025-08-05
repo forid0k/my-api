@@ -1,6 +1,5 @@
 <?php
 header("Content-Type: application/json");
-
 $tokens = [
     "123456789012",
     "111222333444",
